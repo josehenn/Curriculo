@@ -189,6 +189,13 @@ section ul li::before {
    text-align: center;
 }
 
+.botoes-boas-vindas {
+   display: flex;
+   gap: var(--espaco-sm);
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
 .botao {
    background-color: var(--cor-fundo-alt);
    color: var(--cor-texto);
